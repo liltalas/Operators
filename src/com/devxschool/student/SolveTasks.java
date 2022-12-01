@@ -62,19 +62,14 @@ public class SolveTasks {
 
         //TODO implement your code here...
 
-        int salary = 0;
-        double bonus = 0;
-        double totalSalary =0;
+        System.out.println("Please calculate 10% bonus for a salary. ");
+        System.out.print("Enter your salary: ");
+        int salary = sc.nextInt();
 
-
-
-
-
-
-
-
-
-
+        double bonus = (salary * 10) / 100;
+        System.out.println("Your bonus is " + bonus);
+        double totalSalary = salary + bonus;
+        System.out.println("Your total salary is " + totalSalary);
 
 
         Validation.testBonus(salary, bonus, totalSalary);
