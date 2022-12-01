@@ -93,21 +93,16 @@ public class SolveTasks {
 
         //TODO implement your code here...
 
-        int number = 0;
-        int numberWith0 = 0;
-        int myResult = 0;
-
-
-
-
-
-
-
-
-
+//        int number = 0;
+//        int numberWith0 = 0;
+//        int myResult = 0;
+        System.out.println("Enter any number I will calculate a multiplication by 9 WITHOUT multiplying :) ");
+        int number = sc.nextInt();
+        int myResult = (number * 10) - number;
 
         System.out.println(number + " * 9 = " + myResult);
         Validation.testMultiplicationBy9(number, myResult);
+
         System.out.println("***********************************");
         System.out.println("TASK #4");
         /**
