@@ -127,22 +127,23 @@ public class SolveTasks {
 
         //TODO implement your code here...
 
-        double jake = 0;
-        double phil = 0;
-        double ryan = 0;
-        double tom = 0;
-        double bill = 0;
-        double eachDailyProfit = 0;
+        System.out.println("Distribute a daily profit to each singer");
+        System.out.print("Jake's: ");
+        double jake = sc.nextDouble();
+        System.out.print("Phil's: ");
+        double phil = sc.nextDouble();
+        System.out.print("Ryan's: ");
+        double ryan = sc.nextDouble();
+        System.out.print("Tom's: ");
+        double tom = sc.nextDouble();
+        System.out.print("Bill's: ");
+        double bill = sc.nextDouble();
 
-
-
-
-
-
-
-
-
+        double eachDailyProfit = (jake + phil + ryan + tom + bill)/ 5;
+        System.out.println("Each performer gets $" + eachDailyProfit);
         Validation.testProfit(jake, phil, ryan, tom, bill, eachDailyProfit);
+
+
         System.out.println("***********************************");
         System.out.println("TASK #5");
         /*
