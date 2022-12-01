@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class SolveTasks {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
 
         System.out.println("===================================");
         System.out.println("TASK #1");
@@ -28,18 +30,14 @@ public class SolveTasks {
          */
 
         //TODO implement your code here...
-        int length = 0;
-        int width = 0;
-        int perimeter = 0;
+        System.out.println("Please calculate a perimeter of a rectangle. ");
+        System.out.print("Enter length: ");
+        int length = sc.nextInt();
+        System.out.print("Enter width: ");
+        int width = sc.nextInt();
 
-
-
-
-
-
-
-
-
+        int perimeter = (length * 2) + (width * 2);
+        System.out.println("Perimeter is equal to " + perimeter);
 
 
 
